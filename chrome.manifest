@@ -1,0 +1,6 @@
+content   tagger                 chrome/content/
+skin      tagger   classic/1.0   chrome/skin/
+locale    tagger   en-US         chrome/locale/en-US/
+
+overlay	  chrome://messenger/content/mailWindowOverlay.xul	chrome://tagger/content/tagger.xul
+

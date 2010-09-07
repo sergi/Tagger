@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE overlay [
+  <!ENTITY % taggerDTD SYSTEM "chrome://tagger/locale/tagger.dtd">
+  %taggerDTD;
+  <!ENTITY % messengerDTD SYSTEM "chrome://messenger/locale/messenger.dtd">
+  %messengerDTD;
+]>
+
+<overlay xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+   <script language="JavaScript" src="chrome://tagger/content/tagger.js"/>
+   <keyset id="mailKeys">
+        <key id="keyToggleTagging"
+         	 keycode="&toggleTaggingCmd.key;"
+             oncommand="ToggleTagBar()" />
+   </keyset>
+</overlay>
+

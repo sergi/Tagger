@@ -1,0 +1,3 @@
+<!ENTITY toggleTaggingCmd.key "VK_F5">
+<!ENTITY toggleTaggingCmd.modifiers        "shift">
+
