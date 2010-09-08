@@ -14,5 +14,23 @@
          	 keycode="&toggleTaggingCmd.key;"
              oncommand="ToggleTagBar()" />
    </keyset>
+   <toolbox id="mail-toolbox">
+        <toolbarpalette id="TaggerToolbarPalette">
+            <toolbaritem id="tagger-toolbutton-unified" flex="1">
+                <label value="Message tags" control="tagger-tags" flex="1"/>
+                <textbox id="tagger-tags"/>
+            </toolbaritem>
+        </toolbarpalette>
+        <toolbar id="tagger-toolbar" insertafter="mail-bar3"
+                toolbarname="TaggerToolbar" 
+                fullscreentoolbar="true" mode="full"
+                customizable="true"
+                iconsize="small"
+                defaultset="tagger-toolbutton-unified"
+                collapsed="false"
+                persist="collapsed"
+                flex="1"
+                />
+    </toolbox>   
 </overlay>
 
